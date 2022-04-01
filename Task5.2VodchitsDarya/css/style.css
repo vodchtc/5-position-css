@@ -1,0 +1,56 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        background-color: rgb(226, 223, 219);
+    }
+    
+    header {
+        background-color: rgb(244, 216, 177);
+        padding: 50px 0 0;
+    }
+    
+    nav {
+        background-color: rgb(84, 176, 176);
+        text-align: center;
+    }
+    
+    header li {
+        display: inline-block;
+    }
+    
+    header li a {
+        display: block;
+        padding: 10px 20px;
+        text-decoration: none;
+        color: #000;
+        text-transform: uppercase;
+    }
+    
+    header li a:hover {
+        color: white;
+    }
+    
+    header li ul li {
+        display: block;
+        position: relative;
+    }
+    
+    header li ul {
+        position: absolute;
+        background-color: rgb(84, 176, 176);
+        width: 150px;
+        display: none;
+    }
+    
+    header li:hover>ul {
+        display: block;
+    }
+    
+    header li ul li ul {
+        left: 150px;
+        top: 0;
+    }

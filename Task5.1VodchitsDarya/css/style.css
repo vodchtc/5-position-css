@@ -1,0 +1,131 @@
+     * {
+         padding: 0;
+         margin: 0;
+         box-sizing: border-box;
+     }
+     
+     body {
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     }
+     
+     .container {
+         max-width: 1200px;
+         margin: auto;
+         position: relative;
+     }
+     
+     header,
+     footer {
+         background-color: rgba(148, 191, 148, 0.951);
+         padding: 50px 0;
+     }
+     
+     header {
+         text-align: center;
+         position: fixed;
+         width: 100%;
+         z-index: 10;
+     }
+     
+     h2 {
+         color: rgb(243, 128, 243);
+     }
+     
+     #last-link {
+         color: rgb(0, 0, 0);
+     }
+     
+     main {
+         background-color: rgba(145, 171, 162, 0.266);
+         padding: 170px 0 50px 0;
+     }
+     
+     li {
+         display: inline-block;
+     }
+     
+     p {
+         font-size: 22px;
+     }
+     
+     .service p {
+         font-size: 30px;
+         font-weight: bold;
+     }
+     
+     .service {
+         background-color: rgba(184, 141, 141, 0.688);
+         color: white;
+         padding: 20px;
+         position: relative;
+         top: 30px;
+         left: 50px;
+         z-index: -1;
+     }
+     
+     .service a {
+         color: white;
+     }
+     
+     .team {
+         background-color: rgba(255, 191, 119, 0.696);
+         padding: 20px;
+     }
+     
+     .pic {
+         position: absolute;
+         right: 0;
+         top: 0;
+     }
+     
+     .callme {
+         background-color: rgba(0, 0, 0, 0.885);
+         color: #fff;
+         padding: 10px 20px;
+         border: none;
+         border-radius: 15px;
+         position: fixed;
+         right: 10px;
+         bottom: 10px;
+     }
+     
+     .popup {
+         width: 400px;
+         padding: 20px;
+         background-color: rgb(244, 244, 145);
+         position: fixed;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+         box-shadow: 5px 5px 10px #000;
+     }
+     
+     .close {
+         position: absolute;
+         width: 30px;
+         height: 30px;
+         top: -15px;
+         right: -15px;
+         padding: 5px;
+         background: #fff;
+         color: #000;
+     }
+     
+     .right {
+         display: inline-block;
+         width: 28%;
+         vertical-align: top;
+         background-color: rgba(65, 133, 142, 0.695);
+         min-height: 80vh;
+     }
+     
+     .left {
+         display: inline-block;
+         width: 70%;
+         vertical-align: top;
+     }
+     
+     .article {
+         position: sticky;
+         top: 150px;
+     }
